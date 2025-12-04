@@ -42,7 +42,7 @@ async function generateResponse(aiChatBox) {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
-      "x-goog-api-key": "AIzaSyCQrt5LrWgs3nm1ztgGBG4zh0q-1F7GA4I"
+      "x-goog-api-key": "AIzaSyBzagj2dpTz0LYUIhrYNr49C8I03colFog"
     },
     body: JSON.stringify(body)
   };
@@ -151,4 +151,5 @@ imageinput.addEventListener("change",()=>{
 
 imagebtn.addEventListener("click",()=>{
     imagebtn.querySelector("input").click()
+
 })
